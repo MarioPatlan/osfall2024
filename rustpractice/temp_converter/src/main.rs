@@ -23,7 +23,7 @@ fn main() {
     }
 
     let mut c = 20.0;
-
+    
     loop {
         println!("{} degrees Celsius is {} degrees Fahrenheit!", c, celsius_to_fahrenheit(c));
         c += 1.0;
